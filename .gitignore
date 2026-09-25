@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.db
+plate_scan.db
+.pytest_cache/
+.mypy_cache/
+node_modules/
+frontend/dist/
+.DS_Store
+*.log
+.qodo/
