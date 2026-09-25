@@ -16,15 +16,13 @@ Interview case study for Archetype Growth: a scoped full-stack slice of an LPR /
 | Layer | Choice |
 |--------|--------|
 | API | Python FastAPI |
-| DB | **PostgreSQL** (recommended — use your local install). SQLite works as a no-setup fallback. |
+| DB | **PostgreSQL** |
 | UI | React + Vite + TypeScript |
-| Auth | Simple JWT (username/password); not a real IdP |
-
-**Docker is not required.** Prefer a Postgres database on your machine. `docker-compose.yml` is only an optional shortcut if you want a containerized Postgres instead.
+| Auth | Simple JWT |
 
 ## Quick start
 
-### 0. Database (local PostgreSQL — recommended)
+### 0. Database (local PostgreSQL)
 
 Create a database/user in your existing Postgres (psql, pgAdmin, etc.):
 
